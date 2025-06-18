@@ -7,7 +7,6 @@ import org.springframework.test.context.ActiveProfiles
 import org.springframework.test.context.DynamicPropertyRegistry
 import org.springframework.test.context.DynamicPropertySource
 import rfs.enterprise.library.Application
-import rfs.enterprise.library.TestcontainersConfiguration
 import rfs.enterprise.library.configuration.container.PostgresContainerConfiguration
 
 @SpringBootTest(classes = [Application::class], webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)

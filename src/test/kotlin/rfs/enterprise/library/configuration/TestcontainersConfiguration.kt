@@ -1,4 +1,4 @@
-package rfs.enterprise.library
+package rfs.enterprise.library.configuration
 
 import org.springframework.boot.test.context.TestConfiguration
 

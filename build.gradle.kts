@@ -21,6 +21,7 @@ repositories {
 
 dependencies {
 	api("org.springframework.boot:spring-boot-starter-web")
+	api("org.springframework.boot:spring-boot-starter-validation")
 	api("org.springframework.boot:spring-boot-starter-data-jpa")
 	api("org.jetbrains.kotlin:kotlin-reflect")
 	api("org.flywaydb:flyway-core")
@@ -33,6 +34,7 @@ dependencies {
 
 	//TEST
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	testImplementation("org.assertj:assertj-core")
 	testImplementation("org.springframework.boot:spring-boot-testcontainers")
 	testImplementation("org.testcontainers:junit-jupiter")
 	testImplementation("org.testcontainers:postgresql")
