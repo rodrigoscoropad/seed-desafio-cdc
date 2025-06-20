@@ -12,7 +12,7 @@ data class AuthorRequest(
     val name: String,
     @field:Email(regexp = ".+[@].+[\\\\.].+", message = "{email.invalid}")
     val email: String,
-    @field:Size(max = 200, message = "{description.maxsize}")
+    @field:Size(min = 3, max = 200, message = "{description.maxsize}")
     val description: String,
 ) {
     fun toModel() = Author(
