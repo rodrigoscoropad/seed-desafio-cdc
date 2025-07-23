@@ -1,0 +1,1 @@
+create unique index author_email_unique_idx on author(email);

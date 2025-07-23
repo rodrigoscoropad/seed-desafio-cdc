@@ -5,4 +5,7 @@ import org.springframework.stereotype.Repository
 import rfs.enterprise.library.entity.Author
 
 @Repository
-interface AuthorRepository : JpaRepository<Author, Long>
+interface AuthorRepository : JpaRepository<Author, Long>{
+
+    fun findByEmail(email: String): Author?
+}
